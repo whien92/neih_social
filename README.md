@@ -16,5 +16,6 @@
 - git add \*
 - git config --global user.name "Neih Vu"
 - git config --global user.email whien92@gmail.com
+- git config --global core.editor vim
 - git remote add origin https://github.com/whien92/neih_social.git
-- git push -u origin main
+- git push -u origin main/git push origin master
