@@ -25,3 +25,12 @@
 - tsc --init
 - Reference: https://www.typescriptlang.org/tsconfig
 - You can also install a native Git shell, such as Git for Windows. With Git for Windows, running the following in the command line will store your credentials: git config --global credential.helper wincred
+
+# Lession 11
+
+- yarn add express
+- yarn add @types/express --dev
+- yarn add typescript nodemon ts-node --dev
+  - typescript has been installed as global, but with this declaration it can run on another machine without reinstall
+  - nodemon: auto reload browser if any code changes
+  - ts-node: run directly server.ts by ts-node command
