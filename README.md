@@ -34,3 +34,9 @@
   - typescript has been installed as global, but with this declaration it can run on another machine without reinstall
   - nodemon: auto reload browser if any code changes
   - ts-node: run directly server.ts by ts-node command
+
+# Lession 13:
+
+- yarn add mongoose
+- yarn add @types/mongoose --dev
+- Reference: https://www.npmjs.com/package/mongoose
