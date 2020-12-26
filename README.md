@@ -24,3 +24,4 @@
 
 - tsc --init
 - Reference: https://www.typescriptlang.org/tsconfig
+- You can also install a native Git shell, such as Git for Windows. With Git for Windows, running the following in the command line will store your credentials: git config --global credential.helper wincred
