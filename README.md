@@ -19,3 +19,8 @@
 - git config --global core.editor vim
 - git remote add origin https://github.com/whien92/neih_social.git
 - git push -u origin main/git push origin master
+
+# Lession 10
+
+- tsc --init
+- Reference: https://www.typescriptlang.org/tsconfig
