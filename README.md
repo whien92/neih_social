@@ -45,3 +45,13 @@
 
 - yarn add dotenv: dotenv là một module tải các biến từ tệp .env vào process.env. Chính vì vậy, nó là nơi lý tưởng để lưu trữ usernames, passwords, URLs và các dữ liệu nhạy cảm khác. Reference: https://www.npmjs.com/package/dotenv
 - yarn add cross-env: Run scripts that set and use environment variables across platforms. Reference: https://www.npmjs.com/package/cross-env
+
+## Lession 15:
+
+- Install some packages for security, cross-origin for Express
+- hpp: Express middleware to protect against HTTP Parameter Pollution attacks. Ref https://www.npmjs.com/package/hpp
+- helmet
+- morgan: https://github.com/expressjs/morgan#readme
+- cors
+
+- winston: A logger for just about everything
