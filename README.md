@@ -44,7 +44,7 @@
 ## Lesion 14:
 
 - yarn add dotenv: dotenv là một module tải các biến từ tệp .env vào process.env. Chính vì vậy, nó là nơi lý tưởng để lưu trữ usernames, passwords, URLs và các dữ liệu nhạy cảm khác. Reference: https://www.npmjs.com/package/dotenv
-- yarn add cross-env: Run scripts that set and use environment variables across platforms. Reference: https://www.npmjs.com/package/cross-env
+- yarn add cross-env --dev: Run scripts that set and use environment variables across platforms. Reference: https://www.npmjs.com/package/cross-env
 
 ## Lession 15:
 
@@ -55,3 +55,7 @@
 - cors
 
 - winston: A logger for just about everything
+
+### Lession 16
+
+- yarn add envalid: validate for env variables, make sure it has a valid value
