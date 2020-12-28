@@ -20,13 +20,13 @@
 - git remote add origin https://github.com/whien92/neih_social.git
 - git push -u origin main/git push origin master
 
-# Lession 10
+## Lession 10
 
 - tsc --init
 - Reference: https://www.typescriptlang.org/tsconfig
 - You can also install a native Git shell, such as Git for Windows. With Git for Windows, running the following in the command line will store your credentials: git config --global credential.helper wincred
 
-# Lession 11
+## Lession 11
 
 - yarn add express
 - yarn add @types/express --dev
@@ -35,8 +35,13 @@
   - nodemon: auto reload browser if any code changes
   - ts-node: run directly server.ts by ts-node command
 
-# Lession 13:
+## Lession 13:
 
 - yarn add mongoose
 - yarn add @types/mongoose --dev
 - Reference: https://www.npmjs.com/package/mongoose
+
+## Lesion 14:
+
+- yarn add dotenv: dotenv là một module tải các biến từ tệp .env vào process.env. Chính vì vậy, nó là nơi lý tưởng để lưu trữ usernames, passwords, URLs và các dữ liệu nhạy cảm khác. Reference: https://www.npmjs.com/package/dotenv
+- yarn add cross-env: Run scripts that set and use environment variables across platforms. Reference: https://www.npmjs.com/package/cross-env
