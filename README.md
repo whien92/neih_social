@@ -59,3 +59,7 @@
 ### Lession 16
 
 - yarn add envalid: validate for env variables, make sure it has a valid value
+
+### Lession 17
+
+- yarn add tsconfig-paths -dev

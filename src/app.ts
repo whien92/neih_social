@@ -1,11 +1,11 @@
-import { Route } from "core/interfaces";
+import { Route } from "@core/interfaces";
 import cors from "cors";
 import express from "express";
 import helmet from "helmet";
 import hpp from "hpp";
 import mongoose from "mongoose";
 import morgan from "morgan";
-import { Logger } from "./core/utils";
+import { Logger } from "@core/utils";
 
 class App {
   public app: express.Application;
