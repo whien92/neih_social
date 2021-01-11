@@ -16,7 +16,7 @@ class UserService {
       throw new HttpException(400, "Model is empty.");
     }
 
-    const user = this.userSchema.findOne({ email: model.email });
+    const user = await this.userSchema.findOne({ email: model.email });
     if (user) {
       throw new HttpException(
         409,
@@ -37,7 +37,7 @@ class UserService {
       ...model,
       password: hashedPassword,
       avatar: avatar,
-      date: Date.now,
+      date: Date.now(),
     });
 
     return this.createToken(createdUser);
