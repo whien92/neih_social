@@ -63,3 +63,9 @@
 ### Lession 17
 
 - yarn add tsconfig-paths -dev
+
+### Lession 22
+
+- yarn add gravatar @types/gravatar --dev
+- yarn add bcryptjs @types/bcryptjs --dev
+- yarn add jsonwebtoken @types/jsonwebtoken --dev
