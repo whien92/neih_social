@@ -1,0 +1,30 @@
+https://www.youtube.com/watch?v=zbg-SERx6Ig&ab_channel=Ph%E1%BA%A1mHuyHo%C3%A0ng
+
+JS
+1. JS chạy được ở đâu, FE hay BE?
+2. Trong JS có những kiểu dữ liệu nào? 
+3. Hoisting trong JS?
+4. Var, let, const
+5. So sánh == và ===
+6. Hiểu callback như thế nào?
+7. Closure? Dùng làm gì?
+8. Xử lý các button move to top ở góc dưới các trang web?
+9. Với form login, sử dụng JS như thế nào để validate form? => truyền callback vào hàm onSubmit => gọi hàm preventDefault => lấy thông tin đã điền => check ok thì mới submit form.
+10. Cái hay, mới của ES6 > ES5
+11. Khi chưa có class thì viết hướng đối tướng trong JS ntn? => dùng function
+=> muốn viết kế thừa => dùng prototype
+
+React
+1. Dùng react lâu chưa?
+2. CÓ gì hay mà dùng nhiều? 
+3. Phân biệt props và state? Khi nào dùng?
+4. Stateless component vs functional component? 
+5. Tại sao viết functional component? có gì lợi thế với 1 component bình thường có render, componentDidMount... 
+6. Trong 1 component, muốn viết 1 hàm để hiển thị dữ liệu từ server thì viết ở trong function nào? => componentDidMount.
+ComponentDidMount được gọi khi nào?
+
+
+Algorithms
+1. Thuật toán sắp xếp nào có độ phức tạp nhỏ, chạy nhanh nhất => quicksort
+2. mảng đã sắp xếp =. dùng thuật toán binay độ phức tạp log(n)
+3. Cho 1 mảng => tìm phần tử lớn thứ 2?
